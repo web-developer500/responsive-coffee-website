@@ -24,22 +24,22 @@
             <ul class="nav__menu">
                 <button id="menu__close--button" class="fas fa-times"></button>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Home</a>
+                    <a href="#home" class="nav__link">Home</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">About</a>
+                    <a href="#about" class="nav__link">About</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Menu</a>
+                    <a href="#menu" class="nav__link">Menu</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Testimonials</a>
+                    <a href="#testimonial" class="nav__link">Testimonials</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Gallery</a>
+                    <a href="#gallery" class="nav__link">Gallery</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Contact</a>
+                    <a href="#contact" class="nav__link">Contact</a>
                 </li>
             </ul>
             <button id="menu__open--button" class="fas fa-bars"></button>
@@ -49,7 +49,7 @@
     <main> 
 
         <!-- Hero Section -->
-         <section class="hero__section">
+         <section class="hero__section" id="home">
             <div class="section__content">
                 <div class="hero__details">
                     <h2 class="title">
@@ -77,7 +77,7 @@
          </section>
 
          <!-- About Section -->
-          <section class="about__section">
+          <section class="about__section" id="about">
             <div class="section__content">
                 <div class="about__image--wrapper">
                     <img src="images/images/about-image.jpg" alt="about image" class="about__image">
@@ -99,7 +99,7 @@
           </section>
 
           <!-- Menu Section -->
-           <section class="menu__section">
+           <section class="menu__section" id="menu">
             <h2 class="section__title"> Our Menu</h2>
             <div class="section__content">
                 <ul class="menu__list">
@@ -174,7 +174,7 @@
            </section>
 
            <!-- Testimonial Section -->
-            <section class="testimonial__section">
+            <section class="testimonial__section" id="testimonial">
                 <h2 class="section__title">Testimonial</h2>
                 <div class="section__content">
                     <div class="slider__container swiper">
@@ -225,6 +225,100 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Gallery Section -->
+            <section class="gallery__section" id="gallery">
+                <h2 class="section__title">Gallery</h2>
+                <div class="section__content">
+                    <ul class="gallery__list">
+                        <li class="gallery__items">
+                            <img src="images/images/gallery-1.jpg" alt="Gallery Image" class="gallery__images">
+                        </li>
+                        <li class="gallery__items">
+                            <img src="images/images/gallery-2.jpg" alt="Gallery Image" class="gallery__images">
+                        </li>
+                        <li class="gallery__items">
+                            <img src="images/images/gallery-3.jpg" alt="Gallery Image" class="gallery__images">
+                        </li>
+                        <li class="gallery__items">
+                            <img src="images/images/gallery-4.jpg" alt="Gallery Image" class="gallery__images">
+                        </li>
+                        <li class="gallery__items">
+                            <img src="images/images/gallery-5.jpg" alt="Gallery Image" class="gallery__images">
+                        </li>
+                        <li class="gallery__items">
+                            <img src="images/images/gallery-6.jpg" alt="Gallery Image" class="gallery__images">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+             <section class="contact__section"id=contact>
+                <h2 class="section__title">
+                    Contact Us 
+                </h2>
+                <div class="section__content">
+                    <ul class="contact__info--list">
+                        <li class="contact__info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>123 Compsite Avenue, Wilderness, CA 98765</p>
+                        </li>
+                        <li class="contact__info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>info@coffeeshopwebsite.com</p>
+                        </li>
+                        <li class="contact__info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(123) 456-78909</p>
+                        </li>
+                        <li class="contact__info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                        </li>
+                        <li class="contact__info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Saturday: 10:00 AM - 3:00 PM</p>
+                        </li>
+                        <li class="contact__info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Sunday: Closed</p>
+                        </li>
+                        <li class="contact__info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>www.codingnepal.com </p>
+                        </li>
+                    </ul>
+
+                    <form action="#" class="contact__form">
+                        <input type="text" placeholder="Your name " class="form__input" required>
+                        <input type="email" placeholder="Your email " class="form__input" required>
+                        <textarea placeholder="Your message" class="form__input" required></textarea>
+                        <button class="sumbit__button">Submit</button>
+                    </form>
+                </div>
+             </section>
+
+             <!-- Footer Section -->
+
+             <footer class="footer__section">
+                <section class="section__content">
+                    <p class="copyright__text">© 2026 Coffee Shop</p>
+
+                    <div class="social__link--list">
+                        <a href="#" class="social__link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social__link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social__link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+
+                    <p class="policy__text">
+                        <a href="#" class="policy__link">Privecy Policy</a>
+                        <span class="separator">•</span>
+                        <a href="#" class="policy__link">Refund Policy</a>
+
+                    </p>
+                </section>
+             </footer>
 
     </main>
 
