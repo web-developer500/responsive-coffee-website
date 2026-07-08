@@ -36,8 +36,53 @@ https://web-developer500.github.io/responsive-coffee-website/
 <br><br/>
 <img width="900" height="auto" alt="coffeewebpreview2" src="https://github.com/user-attachments/assets/79d29fb1-0a54-4741-b540-b16edd346fd3" />
 <br><br/>
-<img width="350" height="auto" alt="coffeewebpreview3" src="https://github.com/user-attachments/assets/b93c5f54-26b5-485a-9f21-7a8ff370caca" />
-<img width="250" height="auto" alt="coffeewebpreview4" src="https://github.com/user-attachments/assets/8df18685-4aec-4c98-8893-6e5d05caf1a1" />
+<img width="290" height="auto" alt="newmobprev" src="https://github.com/user-attachments/assets/171d3986-7f68-4999-911e-15071ac49cec" />
+<img width="290" height="auto" alt="newmobprev1" src="https://github.com/user-attachments/assets/0e8a8cab-8dea-4213-aea3-5961afbe4189" />
+<br><br/>
+
+
+🎯 What I Learned
+
+While building this project, I practiced:
+
+Responsive Web Design
+Flexbox
+CSS Grid
+Media Queries
+CSS Variables
+Clean Folder Structure
+UI Layout Design
+📌 Future Improvements
+Add JavaScript interactions
+Dark Mode
+Scroll Animations
+Online Reservation Form
+More Accessibility Improvements
+
+
+
+👩‍💻 Author
+
+Dua Sehar
+
+Frontend Developer passionate about creating responsive and user-friendly websites.
+
+## 🙏 Credits
+
+Special thanks to **CodingNepal** for creating the original tutorial that inspired this project.
+
+This website was developed as a learning project by following the tutorial and practicing responsive web development concepts.
+
+📺 Original Tutorial:
+https://www.youtube.com/watch?v=MYFgtnKMDp4
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+
+⭐ If you like this project, don't forget to give it a star!
+
 
 
 
